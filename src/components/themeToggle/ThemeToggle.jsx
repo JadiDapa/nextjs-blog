@@ -18,7 +18,7 @@ const ThemeToggle = () => {
       }
       onClick={toggle}
     >
-      <Image src="/moon.png" alt="Dark Mo" width={14} height={14} />
+      <Image src="/moon.png" alt="Dark Mode" width={14} height={14} />
       <div
         className={styles.ball}
         style={theme === "light" ? { left: "1px" } : { right: "1px" }}
