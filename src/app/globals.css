@@ -47,6 +47,14 @@ a {
   --softText: #626262;
 }
 
+.ql-container {
+  font-size: 20px !important;
+}
+
+.quill > .ql-container > .ql-editor.ql-blank::before {
+  color: #b3b3b1;
+}
+
 /* Breakpoint */
 @media screen and (max-width: 1536px) {
   .wrapper {
